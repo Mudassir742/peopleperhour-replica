@@ -1,0 +1,38 @@
+.cate
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5rem ;
+}
+
+.cate h2
+{
+    font-size: 30px;
+    margin-bottom: 1.5rem;
+}
+
+.cate ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+    list-style: none;
+}
+
+.cate ul li
+{
+    margin:.6rem .4rem;
+}
+
+.cate ul li a
+{
+    text-decoration: none;
+    color:#787e88;
+    background-color: #F0F3F8;
+    padding: .3rem;
+    border-radius: 5px;
+    font-size: 14px;
+}

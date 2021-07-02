@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+.login-outer-section{
+    background-color: #ECEDEF;
+    padding:1.5rem 2rem;
+    font-family : "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.login-inner-section{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-content{
+    padding:1rem;
+}
+
+.login-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.login-logo h1{
+    font-family: 'Benne', serif;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.login-logo p{
+    color:#98999C;
+    font-size: 1rem;
+    margin:10px;
+    
+}
+
+.login-line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#98999C;
+    margin:1rem 0;
+}
+.login-line p {
+    margin:0 5px;
+}
+.login-line div{
+    border-top:1px solid #98999C;
+    width:100%;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.login-form label{
+    padding-bottom: 5px;
+    font-size: .9rem;
+    font-weight: 600;
+    color:#66696d;
+}
+
+.login-form input{
+    padding:.8rem .4rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    background-color: #E8F0FE;
+    border: transparent;
+    border-color:#C6C7CA;
+}
+
+.login-form input:focus { 
+    outline: none !important;
+    border: 2px solid #F67328;
+}
+
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 .2rem;
+}
+.remember label{
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+.remember p{
+    font-size:.8rem;
+    color:#bfc0c4;
+}
+
+.login-form button{
+    border: transparent;
+    background-color: #F67328;
+    border-radius: 5px;
+    padding:1rem;
+    margin:1rem 0;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.login-form button:hover{
+    box-shadow: 1px 1px 10px 1px rgb(170, 165, 165);
+}
+
+.login-bottom-text{
+    margin-top: .5rem;
+    color:#bfc0c4;
+}

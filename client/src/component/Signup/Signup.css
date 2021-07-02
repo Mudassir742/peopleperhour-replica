@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.signup{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.signup section{
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px #aaa3a3;
+    border-radius: 5px;
+    width:48%;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+}
+
+.signup section h1{
+    font-size: 2.2rem;
+    width:100%;
+    text-align: center;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+    color: #271D4F;
+    letter-spacing: 1px;
+}
+
+.signup section .top-aside{
+    width: 100%;
+    text-align: left;
+    margin-bottom: .5rem;
+    color: #CECFD1;
+}
+
+.signup section .category{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.category label{
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #4CBDDC;
+    color:white;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.category label div{
+    font-size: .9rem;
+    font-weight:550;
+}
+.signup-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.name-field{
+    width: 100%;
+}
+.name-field input{
+    width: 46%;
+}
+
+.signup-form input{
+    padding:.8rem;
+    margin-bottom: 1rem;
+    border: transparent;
+    border-bottom:1.5px solid #B7E5F1;
+    letter-spacing: 1px;
+}
+
+.signup-form div{
+    width: 100%;
+}
+
+#lastname{
+    float: right;
+}
+
+#email, #password{
+    background-color: #E8F0FE;
+}
+
+.btn-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-section div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-section div button{
+    padding: 1.2rem 8rem;
+    margin-bottom: 1rem;
+    border: transparent;
+    border-radius: 5px;
+    letter-spacing: .1rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: white;
+    background-color: #F67328;
+}
+
+.btn-section div button:hover{
+    box-shadow: 1px 1px 10px 1px #aaa3a3;
+}
+
+.btn-section a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #9a9da3;
+}
+
+.policy{
+    font-size: .8rem;
+    padding:.1rem .4rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+    color: #CECFD1;
+}
+
+

@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.main_content{
+    height: 320px;
+    
+}
+
+.content
+{
+    position: relative;
+    background-color: #2E3347;
+    color: white;
+    height: 200px;
+    padding: 20px 40px;
+}
+
+.content_nav{
+    padding-bottom: 25px;
+}
+
+.content_nav nav span{
+
+    margin-right: 10px;
+
+}
+
+.content_nav nav i{
+
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+.headings h1{
+    font-size: 30px;
+    margin-bottom: .5rem;
+    letter-spacing: 1.3px;
+}
+
+.headings h2
+{
+    font-size: 15px;
+    letter-spacing: 1.3px;
+    color: #c2cac6;
+    font-weight: 400;
+}
+
+.search_content{
+    position: absolute;
+    top:18rem;
+    transform: translateX(12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search{
+    width:60vw;
+    color: #8E94A8;
+    box-shadow: 1px 1px 5px 1px #8E94A8;
+    border-start-start-radius: 8px;
+    border-end-start-radius: 8px;
+    background-color: white;
+}
+
+.search input:focus{
+    outline: none;
+}
+
+#search_text
+{
+    width:95%;
+    height: 70px;
+    margin-left: 10px;
+    border: none;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.btn{
+    height: 72px;
+    width: 75px;
+    background-color: #e7722e;
+    border:transparent;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px; 
+}
+
+.btn:hover
+{
+    background-color: #e7671c;
+    cursor: pointer;
+}
+
+.btn i{
+    color:white;
+    font-size: 20px;
+}
+
+.categories{
+    margin-left:2.5rem;
+    background-color: #EDF1F7;
+    padding:25px 20px;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+.categories:hover{
+    background-color: #d8dce2;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content.hide{
+    display: none;
+}
+.dropdown-content{
+    border-radius: 3px;
+    padding: 1rem;
+    background: white;
+    position: absolute;
+    top:5.3rem;
+    transform: translateX(-30%);
+    width: 140%;
+    overflow-y:auto;
+    box-shadow: 1px 1px 5px 1px #ced1d8;
+}
+
+.dropdown-content li{
+    padding: .6rem .4rem;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.dropdown-content li:hover{
+    background-color: #EDF1F7;
+    color: black;
+    transition: all .2s;
+}
+.dropdown-content li span{
+    color: #8E94A8;
+}
+
+
+
+.categories i{
+    margin:.2rem;
+    font-size: 20px;
+}
+
+.categories span{
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+
+.border{
+    border-bottom:1.5px solid #787e88;
+    margin:0rem 3rem;
+}
+
